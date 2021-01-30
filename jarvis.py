@@ -91,7 +91,7 @@ if __name__ == "__main__":
             webbrowser.open('facebook.com')
 
         elif "play music" in query:
-            path = '/home/anonymous2020/Documents/jarvis/musics/'
+            path = #put the music directory path here <<<<_----------------------------------------------Change this...
             songs = os.listdir(path)
             song = path+songs[0]
             webbrowser.open(song)
